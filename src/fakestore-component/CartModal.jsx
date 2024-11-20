@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCart } from './CartContext';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
+import { useNavigate } from 'react-router-dom';
 
 const CartModal = ({ onClose }) => {
   const { cart, getTotalPrice } = useCart(); // Get cart and getTotalPrice function from context
@@ -9,6 +9,7 @@ const CartModal = ({ onClose }) => {
   const handleCheckout = () => {
     const totalAmount = getTotalPrice();
     localStorage.setItem('totalAmount', totalAmount); // Store the total in localStorage
+    localStorage.setItem('cart', JSON.stringify(cart)); // Store cart items in localStorage
     navigate('/checkout'); // Redirect to the checkout page
   };
 
