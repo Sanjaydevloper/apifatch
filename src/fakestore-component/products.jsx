@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { useCart } from './CartContext'; // Correct import for CartContext
+import { useCart } from './CartContext'; 
+import { useWishlist } from './WishlistContext'; // Import WishlistContext
 
 export function Products() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { addToCart } = useCart(); // Use addToCart function from CartContext
+  const { addToCart } = useCart();
+  const { addToWishlist } = useWishlist(); // Get the function to add to wishlist
 
   useEffect(() => {
     axios
@@ -37,6 +39,7 @@ export function Products() {
           <div className="col-md-3" key={product.id}>
             <div className="card">
               <Link to={`/product/${product.id}`}>
+                <span className="bi bi-heart me-3" onClick={() => addToWishlist(product)} style={{ cursor: 'pointer' }}></span> {/* Add to wishlist */}
                 <img
                   src={product.image}
                   className="card-img-top"

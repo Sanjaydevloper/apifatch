@@ -40,7 +40,7 @@ const CheckoutPage = () => {
           {renderCartItems()} {/* Render cart items */}
 
           <div>
-          <p><strong>Total Amount: ${parseFloat(totalAmount).toFixed(4)}</strong></p>
+          <p><strong>Total Amount: ${parseFloat(totalAmount).toFixed(2)}</strong></p>
 
             <button className="btn btn-success">Complete Purchase</button>
           </div>
