@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Sanjaydevloper/apifatch.git/static/css/main.eb7ba03e.css",
-    "main.js": "/Sanjaydevloper/apifatch.git/static/js/main.9d159bf8.js",
-    "static/js/453.2f9d571f.chunk.js": "/Sanjaydevloper/apifatch.git/static/js/453.2f9d571f.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/Sanjaydevloper/apifatch.git/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/Sanjaydevloper/apifatch.git/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "index.html": "/Sanjaydevloper/apifatch.git/index.html",
-    "main.eb7ba03e.css.map": "/Sanjaydevloper/apifatch.git/static/css/main.eb7ba03e.css.map",
-    "main.9d159bf8.js.map": "/Sanjaydevloper/apifatch.git/static/js/main.9d159bf8.js.map",
-    "453.2f9d571f.chunk.js.map": "/Sanjaydevloper/apifatch.git/static/js/453.2f9d571f.chunk.js.map"
+    "main.css": "/apifatch/static/css/main.5eb4a038.css",
+    "main.js": "/apifatch/static/js/main.9a3f69e3.js",
+    "static/js/453.2f9d571f.chunk.js": "/apifatch/static/js/453.2f9d571f.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/apifatch/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/apifatch/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/apifatch/index.html",
+    "main.5eb4a038.css.map": "/apifatch/static/css/main.5eb4a038.css.map",
+    "main.9a3f69e3.js.map": "/apifatch/static/js/main.9a3f69e3.js.map",
+    "453.2f9d571f.chunk.js.map": "/apifatch/static/js/453.2f9d571f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb7ba03e.css",
-    "static/js/main.9d159bf8.js"
+    "static/css/main.5eb4a038.css",
+    "static/js/main.9a3f69e3.js"
   ]
 }
